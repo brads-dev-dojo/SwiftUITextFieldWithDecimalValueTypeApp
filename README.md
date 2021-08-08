@@ -10,3 +10,7 @@ How must the code be adapted so that the two-way data binding works for properti
 - Set the team in the Xcode project: 
   Project > Target "TextFieldWithOptionalDecimalValueType" > Signing & Capabilities > Team > Choose a Team.
 - Run the project
+
+## Recording
+Video recording of a failed input. When the second input field loses focus, the newly entered data is not applied, but the original data is displayed again. Therefore I suspect a problem with the data binding.
+![recording of this app](https://i.stack.imgur.com/4huHT.gif)
